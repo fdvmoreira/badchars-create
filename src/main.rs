@@ -1,5 +1,4 @@
 extern crate argparse;
-use argparse::ArgumentParser;
 fn main() {
-    
+  println!("Hello world!");
 }
