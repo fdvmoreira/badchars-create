@@ -1,5 +1,7 @@
 extern crate argparse;
+extern crate colored;
 use argparse::Store;
+use colored::Colorize;
 
 fn main() {
   let mut chars_to_skip: String = String::new();
@@ -13,7 +15,7 @@ fn main() {
   parser.refer(&mut output_language).add_option(&["--language", "-l"], Store, "Output language ( python | c/c++ | js | rust )");
   match parser.parse_args(){
     Ok(())=>(),
-    Err(_errno) => println!("Something went wrong"),
+    Err(_errno) => println!("{}", "Argument not found".red()),
   }
 }
 
