@@ -60,11 +60,12 @@ colored = "2.0.0"
 
 ## License
 
-MIT License
+**MIT License**
 
-read the LICENSE file
+read the [LICENSE](LICENSE) file
 
 ## Author
 
 Flavio Moreira <flaviomoreira@fdvmlab.com>
+
 My website - <https://fdvmlab.com>
