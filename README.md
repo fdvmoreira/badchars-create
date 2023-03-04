@@ -14,7 +14,7 @@ cd badchars-create
 or
 
 ```
-wget https://github.com/fdvmoreira/badchars_create/archive/refs/heads/main.zip
+wget https://github.com/fdvmoreira/badchars_create/archive/refs/heads/main.zip -O badchars-create.zi
 unzip badchars-create.zip
 cd badchars-create
 ```
@@ -31,7 +31,7 @@ cargo build --release && cd target/release
 ### Download executable
 
 ```
-wget https://raw.github.com/fdvmoreira/badchars.zip
+# Search in the release tags
 ```
 
 ## Usage
