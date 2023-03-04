@@ -7,14 +7,14 @@ CLI application written in rust to help with bad characters generation when crea
 ### Download Source code
 
 ```
-git clone https://github.com/fdvmoreira/badchars-create.git
+git clone https://github.com/fdvmoreira/badchars_create.git
 cd badchars-create
 ```
 
 or
 
 ```
-wget https://github.com/fdvmoreira/badchars-create.zip
+wget https://github.com/fdvmoreira/badchars_create/archive/refs/heads/main.zip
 unzip badchars-create.zip
 cd badchars-create
 ```
