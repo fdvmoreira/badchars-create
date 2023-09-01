@@ -8,7 +8,7 @@ CLI application written in rust to help with bad characters generation when crea
 
 ```
 git clone https://github.com/fdvmoreira/badchars_create.git && cd badchars-create
-```
+t ```
 
 or
 
@@ -40,22 +40,22 @@ cargo build --release && cd target/release
 
 ## Usage
 
-**Display the help information**
+- _Display the help information_
 ```bash
 ./badchars_create --help
 ```
-**exclude 3 hexadecimal characters [\x00, \x45, \xf0]**
+- _Exclude 3 hexadecimal characters [\x00, \x45, \xf0]_
 
 ```bash
 ./badchars_create --skip "\x00\x45\xf0"
 ```
 
-**change the output format (defaults to standard output)**
+- _Change the output format (defaults to standard output)_
 ```bash
 ./badchars_create --format=string
 ```
 
-**The programming language in which the generated output will be used**
+- _The programming language in which the generated output will be used_
 ```bash
 ./badchars_create --language python
 
@@ -63,7 +63,7 @@ cargo build --release && cd target/release
 
 ## Dependencies
 
-```bash
+```yaml
 argparse = "0.2.2"
 colored = "2.0.0"
 ```
