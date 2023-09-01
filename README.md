@@ -6,18 +6,20 @@ CLI application written in rust to help with bad characters generation when crea
 
 ### Download Source code
 
-```
+```bash
 git clone https://github.com/fdvmoreira/badchars_create.git && cd badchars-create
-t ```
+```
 
 or
 
 ```bash
 wget https://github.com/fdvmoreira/badchars_create/archive/refs/heads/main.zip -O badchars-create.zi
 ```
+
 ```bash
 unzip badchars-create.zip
 ```
+
 ```bash
 cd badchars-create
 ```
