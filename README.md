@@ -1,6 +1,6 @@
-# Bad characters creator
+# Bad Characters creator
 
-CLI application written in rust to help with bad characters generation when creat ing buffer overflow payloads.
+This simple CLI application will help you with bad character generation when creating buffer overflow payloads.
 
 ## Installation
 
@@ -13,7 +13,7 @@ git clone https://github.com/fdvmoreira/badchars_create.git && cd badchars_creat
 or
 
 ```bash
-wget https://github.com/fdvmoreira/badchars_create/archive/refs/heads/main.zip -O badchars-create.zi
+wget https://github.com/fdvmoreira/badchars_create/archive/refs/heads/main.zip -O badchars-create.zip
 ```
 
 ```bash
@@ -24,8 +24,8 @@ unzip badchars-create.zip
 cd badchars-create
 ```
 
-### Compilling the application
-1. Build and change into artifact's directory
+### Compiling the application
+1. Build and change into the artifact's directory
 ```bash
 cargo build --release && cd target/release
 ```
@@ -74,5 +74,5 @@ colored = "2.0.0"
 
 **MIT License**
 
-Read the [LICENSE](LICENSE) file.
+Read the [LICENSE](LICENSE)
 
