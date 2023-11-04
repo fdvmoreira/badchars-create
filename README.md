@@ -6,64 +6,63 @@ This simple CLI application will help you with bad character generation when cre
 
 ### Download Source code
 
-```bash
-git clone https://github.com/fdvmoreira/badchars_create.git && cd badchars_create
+```sh
+git clone https://github.com/fdvmoreira/badchars_create.git && cd badchars-create
 ```
 
 or
 
-```bash
+```sh
 wget https://github.com/fdvmoreira/badchars_create/archive/refs/heads/main.zip -O badchars-create.zip
 ```
 
-```bash
+```sh
 unzip badchars-create.zip
 ```
 
-```bash
+```sh
 cd badchars-create
 ```
 
 ### Compiling the application
-1. Build and change into the artifact's directory
-```bash
+1. Build and change into the artefact's directory
+```sh
 cargo build --release && cd target/release
 ```
 2. Run the application
-```bash
+```sh
 ./badchars-create
 ```
 
 ### Download executable
 
-```
-# Search in the release tags
-```
+Search in the release tags
+
 
 ## Usage
 
 - _Display the help information_
-```bash
+```sh
 ./badchars_create --help
 ```
 - _Exclude 3 hexadecimal characters [\x00, \x45, \xf0]_
 
-```bash
+```sh
 ./badchars_create --skip "\x00\x45\xf0"
 ```
 
 - _Change the output format (defaults to standard output)_
-```bash
+```sh
 ./badchars_create --format=string
 ```
 
 - _The programming language in which the generated output will be used_
-```bash
+```sh
 ./badchars_create --language python
 
 ```
 
-## Dependencies
+## Required Dependencies
 
 ```yaml
 argparse = "0.2.2"
